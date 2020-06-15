@@ -16,9 +16,13 @@ python predict.py path/to/image path/to/model
 ``` 
 This will return the top likely classe using the given model,
 
+
+test images and a model I trained are included for testing.
+the model named: "best_model" has an accuarcy of ~75%
+
 ### Example:
 ```
-python predict.py ./test_images/wild_pansy.jpg best_model.h5
+python predict.py ./test_images/wild_pansy.jpg best_model
 ``` 
 ### Output:
 ```
@@ -31,7 +35,7 @@ python predict.py ./test_images/wild_pansy.jpg best_model.h5
 
 ### Example: 
 ```
-python predict.py ./test_images/orange_dahlia.jpg best_model.h5 --top_k 6 --category_names label_map.json
+python predict.py ./test_images/orange_dahlia.jpg best_model --top_k 6 --category_names label_map.json
 ``` 
 ### Output:
 ```
