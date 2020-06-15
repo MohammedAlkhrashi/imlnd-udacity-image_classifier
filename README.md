@@ -14,10 +14,13 @@ use:
 ```
 python predict.py path/to/image path/to/model 
 ``` 
-This will return the top likely classe using the given model,
+This will return the top likely classe using the given model.
+
 
 
 test images and a model I trained are included for testing.
+
+
 the model named: "best_model" has an accuarcy of ~75%
 
 ### Example:
